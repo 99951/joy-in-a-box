@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Joy in a Box</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <a href="index.html">Joy in a Box</a>
+    <div class="top-icons">
+    <span>Account</span>
+    <span>❤</span>
+    <span>Cart</span>
+
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="decor.html">Décor</a></li>
+            <li><a href="made-to-order.html">Made-To-Order</a></li>
+            <li><a href="fluff.html">Fluff & Snuggles</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Welcome to Joy in a Box</h1>
+    <p>Your home of décor and cozy living</p>
+</section>
+
+<section class="products">
+    <h2>Featured Products</h2>
+
+    <div class="product">
+         <img src="61VxSjvN+9L.jpg"="Morden Vase" Width="200">
+         <h3> Modern Vase</h3>
+         <p>Elegant decor for your home</p>
+     </div>
+       
+    <div class="product">
+         <img src="LusterLoft-multiple-productthumbnail_2000x.jpg"="Soft Blankets" width="200">
+         <h3>Soft Blanket</h3>
+         <p>Warm and cozy comfort</p>
+      </div>
+</section>
+
+<!-- VIDEO -->
+<section style="text-align:center;">
+    <h2>Our Story</h2>
+    <video width="400" height="250" controls>
+        <source src="https.MP4" type="video/mp4">
+    
+    </video>
+</section>
+
+<button onclick="topFunction()" id="topBtn">↑</button>
+<a href="#" class="whatsapp">WhatsApp</a>
+
+<footer>
+    <p>Subscribe to our newsletter</p>
+    <p>Email: info@joyinabox.com</p>
+    <p>Instagram | Facebook</p>
+</footer>
+
+<script>
+let btn = document.getElementById("topBtn");
+
+window.onscroll = function() {
+    btn.style.display = (document.documentElement.scrollTop > 100) ? "block" : "none";
+};
+
+function topFunction() {
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+</body>
+</html>
