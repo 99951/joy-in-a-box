@@ -58,7 +58,7 @@ nav ul li a:hover {
 }
 
 .product {
-    display: inline-block;
+    display:block;
     margin: 10px;
     padding: 20px;
     background: maroon;
