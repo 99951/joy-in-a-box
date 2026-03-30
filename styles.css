@@ -51,8 +51,9 @@ nav ul li a:hover {
 }
 
 
-.products {
-    text-align: center;
+.featured products {
+    display:block;
+  text-align: center;
     padding: 20px;
 }
 
