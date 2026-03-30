@@ -57,12 +57,17 @@ nav ul li a:hover {
     padding: 20px;
 }
 
-.product {
+.featured product {
     display:block;
     margin: 10px;
     padding: 20px;
     background: maroon;
 }
+
+.product{
+    diaplay:block;
+    marrgin:10px;
+    padding:20px
 
 
 footer {
