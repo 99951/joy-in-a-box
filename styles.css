@@ -57,18 +57,32 @@ nav ul li a:hover {
     padding: 20px;
 }
 
-.featured product {
-    display:block;
-    margin: 10px;
-    padding: 20px;
-    background: maroon;
+.product {
+    display: inline-block;
+    width: 220px;              /* controls size of each block */
+    margin: 15px;
+    padding: 15px;
+    background: #ddd;
+    border-radius: 10px;       /* makes corners smooth */
+    vertical-align: top;       /* keeps them aligned */
 }
 
-.product{
-    diaplay:block;
-    marrgin:10px;
-    padding:20px
+/* Product images */
+.product img {
+    width: 100%;               /* image fills the box */
+    height: 150px;             /* equal height for all images */
+    object-fit: cover;         /* keeps image neat (no stretching) */
+    border-radius: 8px;
 }
+
+/* Product title */
+.product h3 {
+    margin: 10px 0 5px;
+}
+
+/* Product description */
+.product p {
+    font-size: 14px;
 
 
 footer {
