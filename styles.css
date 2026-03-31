@@ -1,17 +1,14 @@
-body {
+    body {
     font-family: Arial, sans-serif;
     margin: 0;
-}
-
-
-body {
     text-align: center;
     background: #f4f4f4;
-    color:white 
+    color: black; /* changed for visibility */
     padding: 10px;
-    font-size:20px;
+    font-size: 20px;
 }
 
+/* Logo */
 .logo a {
     text-decoration: none;
     font-size: 24px;
@@ -19,12 +16,12 @@ body {
     color: black;
 }
 
-
+/* Navigation */
 nav ul {
     display: flex;
     justify-content: center;
     background: maroon;
-    padding: 10;
+    padding: 10px;
     margin: 0;
 }
 
@@ -35,56 +32,56 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 8px 12px;
 }
 
 nav ul li a:hover {
-    background: maroon;
+    background: black;
 }
 
-
+/* Hero */
 .hero {
     text-align: center;
     padding: 50px;
     background: maroon;
+    color: white;
 }
 
-
-.product {
-    display:block;
-  text-align: center;
-    padding: 20px;
+/* PRODUCTS CONTAINER (IMPORTANT) */
+.products {
+    text-align: center;
 }
 
+/* Product cards */
 .product {
     display: inline-block;
-    width: 220px;              /* controls size of each block */
+    width: 220px;
     margin: 15px;
     padding: 15px;
     background: #ddd;
-    border-radius: 10px;       /* makes corners smooth */
-    vertical-align: top;       /* keeps them aligned */
+    border-radius: 10px;
+    vertical-align: top;
 }
 
-/* Product images */
+/* Images */
 .product img {
-    width: 100%;               /* image fills the box */
-    height: 150px;             /* equal height for all images */
-    object-fit: cover;         /* keeps image neat (no stretching) */
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
     border-radius: 8px;
 }
 
-/* Product title */
+/* Text */
 .product h3 {
     margin: 10px 0 5px;
 }
 
-/* Product description */
 .product p {
     font-size: 14px;
+}
 
-
+/* Footer */
 footer {
     text-align: center;
     background: black;
@@ -92,7 +89,7 @@ footer {
     padding: 15px;
 }
 
-
+/* Buttons */
 #topBtn {
     position: fixed;
     bottom: 20px;
@@ -109,9 +106,13 @@ footer {
     padding: 10px;
 }
 
-
+/* Mobile */
 @media (max-width: 600px) {
     nav ul {
         flex-direction: column;
     }
-}
+
+    .product {
+        width: 90%; /* stack nicely on phone */
+    }
+    }
