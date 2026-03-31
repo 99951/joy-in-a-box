@@ -55,7 +55,7 @@ nav ul li a:hover {
 
 /* Product cards */
 .product {
-    display:inline-block;
+    display: inline-block;
     width: 220px;
     margin: 15px;
     padding: 15px;
@@ -115,4 +115,4 @@ footer {
     .product {
         width: 90%; /* stack nicely on phone */
     }
-    }
+        }
